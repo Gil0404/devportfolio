@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/build/css/style.css" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <script src="./nav.js"></script>
+    <title>E-Venture</title>
+  </head>
+
+  <body
+    class="bg-gradient-to-b from-lightblue from-3% via-powderwhite via-20% to-powderwhite to-90% min-h-screen text-black"
+  >
+    <header class="z-20 sticky xsm:mt-0 mt-5 md:mt-5 flex-col sm:mt-0">
+      <section
+        class="rounded-full text-black max-h-7 bg-white max-w-4xl mx-auto p-4 flex justify-around xsm:justify-between sm:justify-between items-center shadow-md md:rounded-full sm:rounded-none xsm:rounded-none text-xs"
+      >
+        <a href="#"
+          ><img
+            src="../favicon.ico"
+            class="max-h-10 min-h-10 min-w-10 object-cover"
+            alt="adventure"
+        /></a>
+        <input
+          type="search"
+          placeholder="Search"
+          class="bg-black pl-5 rounded-full min-w-36 hidden max-w-48 sm:hidden md:flex pt-1 pb-1 top-0"
+        />
+        <div class="justify-self-end justify-evenly sm:hidden md:flex hidden">
+          <a href="#" class="hover:text-lightblue mx-5">Home</a>
+          <a href="#" class="hover:text-lightblue mx-5">Destination</a>
+          <a href="#" class="hover:text-lightblue mx-5">Packages</a>
+          <a href="#" class="hover:text-lightblue mx-5">About&nbsp;us</a>
+          <a href="#" class="hover:text-lightblue mx-5">Contact</a>
+        </div>
+        <button class="text-lg flex md:hidden" id="burgermenu">&#9776;</button>
+        <button class="text-lg hidden md:hidden" id="closemenu">&times;</button>
+      </section>
+      <nav>
+        <div
+          class="flex-col justify-self-end hidden justify-evenly md:hidden bg-white pt-1 top-0 animate-open-menu ease-in-out duration-1000 translate-y-0"
+          id="navbarmenu"
+        >
+          <a href="#" class="text-center hover:text-gray-800 hover:bg-lightblue"
+            >Home</a
+          >
+          <a href="#" class="text-center hover:text-gray-800 hover:bg-lightblue"
+            >Destination</a
+          >
+          <a href="#" class="text-center hover:text-gray-800 hover:bg-lightblue"
+            >Packages</a
+          >
+          <a href="#" class="text-center hover:text-gray-800 hover:bg-lightblue"
+            >About&nbsp;us</a
+          >
+          <a href="#" class="text-center hover:text-gray-800 hover:bg-lightblue"
+            >Contact</a
+          >
+        </div>
+      </nav>
+    </header>
+  </body>
+</html>
